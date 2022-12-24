@@ -31,12 +31,11 @@ set wildmode=list:longest,list:full " enable list of completion
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.cache " skip tmp files
 set list listchars=tab:»·,trail:·,nbsp:· " Display extra whitespace
 
-
-
-so ~/.config/nvim/mappings/split_window.vim
 so ~/.config/nvim/mappings/switch_files_and_search.vim
 so ~/.config/nvim/mappings/tab_completion.vim
 so ~/.config/nvim/mappings/vim-commentary_mapping.vim
 so ~/.config/nvim/mappings/vim-tmux-navigator_mappings.vim
 so ~/.config/nvim/mappings/nerdtree_mappings.vim
 so ~/.config/nvim/mappings/tmux_config.vim
+so ~/.config/nvim/mappings/split_window.vim
+

@@ -24,3 +24,5 @@ nnoremap <c-p> :Files<cr>
 " Tabs
 nnoremap <S-Tab> gt
 nnoremap <silent> <S-t> :tabnew<CR>
+
+

@@ -30,6 +30,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Style-Components
 Plug 'styled-components/vim-styled-components', { 'branch': 'main'  }
+
+Plug 'wbthomason/packer.nvim'
 call plug#end()
 
 
