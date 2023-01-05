@@ -1,4 +1,9 @@
 call plug#begin('~/.config/nvim/plugged')
+" Dracula theme
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+
+Plug 'scrooloose/syntastic' " syntax checking
+
 " Define bundles via Github repos
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/nerdtree' " file explorer
@@ -11,7 +16,12 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'vim-ruby/vim-ruby'
 
-Plug 'sheerun/vim-polyglot'
+
+" Pretty status bar start
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+" Pretty status bar end
+
 Plug 'tmux-plugins/vim-tmux'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -23,8 +33,8 @@ Plug 'tpope/vim-repeat'
 " JS/TS/Graphql
 Plug 'pangloss/vim-javascript'
 Plug 'MaxMEllon/vim-jsx-pretty'
-Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'leafgarland/typescript-vim'
 Plug 'jparise/vim-graphql'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -33,7 +43,4 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main'  }
 
 Plug 'wbthomason/packer.nvim'
 call plug#end()
-
-
-
 

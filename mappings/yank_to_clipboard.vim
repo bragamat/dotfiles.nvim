@@ -1,0 +1,1 @@
+vmap <leader>y "*y
