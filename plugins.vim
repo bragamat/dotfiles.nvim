@@ -3,7 +3,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 Plug 'scrooloose/syntastic' " syntax checking
-
 " Define bundles via Github repos
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/nerdtree' " file explorer
@@ -11,9 +10,9 @@ Plug 'pbrisbin/vim-mkdir' " create folder if it doesn't exist
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-git'
-Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 
 
