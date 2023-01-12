@@ -6,6 +6,7 @@
     "typescriptreact"
   ],
   "tsserver.formatOnType": true,
+  "javascript.referencesCodeLens.enabled": true,
   "coc.preferences.formatOnType": true,
   "prettier.disableSuccessMessage": true,
   "prettier.printWidth": 80,

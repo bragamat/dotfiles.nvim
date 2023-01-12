@@ -41,5 +41,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'styled-components/vim-styled-components', { 'branch': 'main'  }
 
 Plug 'wbthomason/packer.nvim'
+Plug 'mkitt/tabline.vim'
+
 call plug#end()
 
