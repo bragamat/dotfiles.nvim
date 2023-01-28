@@ -14,6 +14,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
+Plug 'sheerun/vim-polyglot'
 
 
 " Pretty status bar start
@@ -42,6 +43,7 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main'  }
 
 Plug 'wbthomason/packer.nvim'
 Plug 'mkitt/tabline.vim'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
 
