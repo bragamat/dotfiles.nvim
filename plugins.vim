@@ -14,8 +14,16 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
-Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+" Rescript plugins start
+Plug 'rescript-lang/vim-rescript'
+" Rescript plugins end
+
+" Emmet plugin start
+Plug 'mattn/emmet-vim'
+" Emmet plugin start
 
 " Pretty status bar start
 Plug 'vim-airline/vim-airline'

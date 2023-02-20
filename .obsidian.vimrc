@@ -7,11 +7,11 @@
 "_________________________________________________________________________
 
 " ; (semicolon) - same as : (colon)
-nmap ; :
+map ; :
 
 " (space) - same as : (colon)
-nmap <SPACE> :
+map <SPACE> :
 
 " j and k navigate visual lines rather than logical ones
-nmap j gj
-nmap k gk
+map j gj
+map k gk
